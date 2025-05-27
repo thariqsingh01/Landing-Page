@@ -1,0 +1,167 @@
+*{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*-----------------Part 1---------------------------*/
+
+.part1{
+    background-color: #1F2937;
+    color: white;
+    padding: 0em 10em 5em 10em;
+}
+
+/*-----------------Header---------------------------*/
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 0px;
+}
+
+.header li{
+    list-style: none;
+    display: inline-block;
+}
+
+.header li a{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-right: 15px;
+}
+
+/*-----------------Hero---------------------------*/
+
+.hero{
+    display: flex;
+    flex: 1;
+}
+
+.hero-left{
+    width: 50%;
+    padding: 3em;
+}
+
+.hero-left h2{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-left p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-left button{
+    background-color: #3882f6;
+    font-size: 26px;
+    color: #e5e7eb;
+    border: none;
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 12px;
+}
+
+.hero-right{
+    width: 50%;
+    padding: 3em;
+}
+
+/*-----------------Part 2---------------------------*/
+
+.part2{
+    background-color: #f9faf8;
+    color: black;
+    padding: 5em 10em;
+}
+
+.part2 h3{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.carousel{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*-----------------Part 3---------------------------*/
+
+.part3{
+    background-color: #e5e7eb;
+    color: black;
+    padding: 5em 10em;
+}
+
+.part3 p{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.part3 footer{
+    font-size: 24px;
+    text-align: right;
+}
+
+/*-----------------Part 4---------------------------*/
+
+.part4{
+    background-color: #f9faf8;
+    color: white;
+    padding: 5em 10em;
+}
+
+.block{
+    background-color: #3882f6;
+    padding: 1em 5em;
+    border-radius: 12px;
+    display: flex;
+}
+
+.signup button{
+    text-align: center;
+    background-color: #3882f6;
+    font-size: 20px;
+    color: #e5e7eb;
+    border: solid;
+    border-color: #f9faf8;
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 12px;
+    margin: 2em;
+}
+
+.info h3{
+    font-size: 28px;
+    color: #e5e7eb;
+    margin-bottom: 0;
+}
+
+.info p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0;
+}
+
+/*-----------------footer---------------------------*/
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    padding: 2em 6em;
+}
+
+.footer p{
+    font-size: 18px;
+    text-align: center;
+}
